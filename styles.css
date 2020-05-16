@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    align-content: center;
+}
+
+.container{
+	width: 60%;
+	margin: 5% auto;
+}
+
+.section{
+    background-color: #8080ff;
+    width: 100%;
+    max-width: 100%;
+    padding: 10px 20px;
+    color: white;
+    font-family: 'Verdana', sans-serif;
+}
+.search{
+    display: block;
+}
+.result{
+    font-family: 'Verdana', sans-serif;
+    text-align: center;
+}
+#image{
+    width: 50px;
+    height: 50px;
+    align-content: center;
+    align-self: center;
+    margin-left: 44%;
+}
+#image img{
+    max-width: 100%;
+    max-height: 100%;
+    align-self: center;
+    
+}
+#repo{
+    display: none;
+}
+input{
+    width: 100%;
+    padding: 10px 15px;
+    outline: none;
+    font-family: 'Verdana', sans-serif;
+}
+#button{
+    background-color: #001a66;
+    border: none;
+    color: white;
+    outline: none;
+	border-radius: 5px;
+	width: 100px;
+	font-size: 1.4em;
+	padding: 5px;
+	margin: 5px 45%;
+}
+#button:active{
+    transform: scale(0.95);
+}
